@@ -1,1 +1,2 @@
-print("mayron")
+nome=input("nome")
+print(nome)
