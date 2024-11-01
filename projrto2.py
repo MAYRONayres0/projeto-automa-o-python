@@ -57,6 +57,6 @@ def main():
 
         
 
-        print(f"olá {nome}, vc tem {idade} anos de idade.")
+        print(f"olá {nome}, vc tem: {idade}  anos de idade.")
         break
 main()
