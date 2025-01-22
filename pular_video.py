@@ -1,5 +1,10 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from tkinter import Radiobutton
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 import time
 from time import sleep
 from selenium.webdriver.support.select import Select
@@ -11,7 +16,6 @@ from selenium.webdriver import ActionChains
 import pyautogui 
 from selenium.common.exceptions import *
 from selenium.webdriver.support import expected_conditions as condicao_esperada
-from selenium.webdriver.chrome import webdriver
 def iniciar_driver():
     # Fonte de opções de switches https://chromium.googlesource.com/chromium/src/+/master/chrome/common/chrome_switches.cc e  https://peter.sh/experiments/chromium-command-line-switches/
     chrome_options = Options()
