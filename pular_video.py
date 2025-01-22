@@ -66,7 +66,7 @@ def iniciar_driver():
 driver , wait= iniciar_driver()
 
 
-driver.get('https://www.youtube.com/watch?v=Va7gnpMnaQ8&t=1067s')
+driver.get('https://www.youtube.com/watch?v=r9P08bbllno')
 pyautogui.press('enter')
 while True:
         try:
