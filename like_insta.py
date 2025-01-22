@@ -4,8 +4,6 @@ import os
 import time
 
 
-
-
 #abrir o navegador
 while True:
     pyautogui.click(484,741)
