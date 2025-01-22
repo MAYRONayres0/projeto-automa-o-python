@@ -11,6 +11,7 @@ from selenium.webdriver import ActionChains
 import pyautogui 
 from selenium.common.exceptions import *
 from selenium.webdriver.support import expected_conditions as condicao_esperada
+from selenium.webdriver.chrome import webdriver
 def iniciar_driver():
     # Fonte de opções de switches https://chromium.googlesource.com/chromium/src/+/master/chrome/common/chrome_switches.cc e  https://peter.sh/experiments/chromium-command-line-switches/
     chrome_options = Options()
